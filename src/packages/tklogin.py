@@ -40,6 +40,7 @@ def entry():
 
 def fmpass():
     print( 'Olvide mi contraseña' )
+    messagebox.showwarning( 'Olvide mi contraseña' )
 
 def login():
     root.mainloop()
